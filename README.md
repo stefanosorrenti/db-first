@@ -7,11 +7,9 @@
 
 1) Trovare un nome per la nostra tabella.
 
-2) Inserire i dati necessari per la nostra tabella.
+2) Definire il tipo di dato dei nostri dati nella tabella.
 
-3) Difinire il tipo di dato dei nostri dati nella tabella.
-
-4) Inserire eventuali attributi
+3) Inserire eventuali attributi
 
 # TABELLA: Cars
 
