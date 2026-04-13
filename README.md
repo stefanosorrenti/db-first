@@ -16,37 +16,38 @@
 
 # COLONNE:
 
-    -ID: Number - INT
+PRIMARY KEY, NULL/NOTNULL, DEAFULT AUTO_INCREMENT, UNIQUE
+    -ID: Number - INT - [PRIMARY KEY, AUTO_INCREMENT]
     
-    -CASA PRODUTTRICE: String - VARCHAR(15)
+    -CASA PRODUTTRICE: String - VARCHAR(15) - [NOTNULL]
 
-    -MODELLO: String - VARCHAR(70)
+    -MODELLO: String - VARCHAR(70) - [NOTNULL]
 
-    -IMAGE: String - VARCHAR(256)
+    -IMAGE: String - VARCHAR(256) - [DEFAULT(placeholer img)]
 
-    -IMMATRICOLAZIONE: Date - DATE
+    -IMMATRICOLAZIONE: Date - DATE - [NOTNULL]
 
-    -CHILOMETRI: Number - MEDIUMINT - DECIMAL(6, 3)
+    -CHILOMETRI: Number - MEDIUMINT - DECIMAL(6, 3) - [NOTNULL]
 
-    -PREZZO: Number - MEDIUMINT - DECIMAL(6, 3)
+    -PREZZO: Number - MEDIUMINT - DECIMAL(6, 3) - [NOTNULL]
 
-    -ALIMENTAZIONE: String - VARCHAR(10)
+    -ALIMENTAZIONE: String - VARCHAR(10) - [NOTNULL]
 
-    -CAMBIO AUTOMATICO: Number - TINYINT
+    -CAMBIO AUTOMATICO: Number - TINYINT - - [DEFAULT(0)]
     
-    -TIPOLOGIA CAMBIO AUOTMATICO: String - VARCHAR(3)
+    -TIPOLOGIA CAMBIO AUOTMATICO: String - VARCHAR(3) - [DEFAULT('Non è dotata di cambio automatico')]
 
-    -POSTI: Number - TINYINT
+    -POSTI: Number - TINYINT - [NULL]
 
-    -CILINDRATA: - Number SMALLINT
+    -CILINDRATA: - Number SMALLINT - [NOTNULL]
 
-    -PORTE: Number - TINYINT
+    -PORTE: Number - TINYINT - [NULL]
 
-    -POTENZA: Number - TINYINT
+    -POTENZA: Number - TINYINT - [NOTNULL]
 
-    -CONSUMI: Number - TINYINT
+    -CONSUMI: Number - TINYINT - [NULL]
 
-    -CLASSE: String - CHAR(2)
+    -CLASSE: String - CHAR(2) - [NOTNULL]
 
-    -N.PROPRIETARI: Number TINYINT 
+    -N.PROPRIETARI: Number TINYINT  - [NULL]
 
