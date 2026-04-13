@@ -16,31 +16,33 @@
 
 # COLONNE:
 
-    -ID
+    -ID: Number
     
-    -CASA PRODUTTRICE
+    -CASA PRODUTTRICE: String
 
-    -MODELLO
+    -MODELLO: String
 
-    -IMMATRICOLAZIONE
+    -IMAGE: String
 
-    -CHILOMETRI
+    -IMMATRICOLAZIONE: Date
 
-    -ALIMENTAZIONE
+    -CHILOMETRI: Number
 
-    -CAMBIO
+    -ALIMENTAZIONE: String
 
-    -POSTI
+    -CAMBIO: String
 
-    -CILINDRATA
+    -POSTI: Number
 
-    -PORTE
+    -CILINDRATA: Number
 
-    -POTENZA
+    -PORTE: Number
 
-    -CONSUMI
+    -POTENZA: Number
 
-    -CLASSE
+    -CONSUMI: Number
 
-    -N.PROPRIETARISSS
+    -CLASSE: String
+
+    -N.PROPRIETARI: Number
 
