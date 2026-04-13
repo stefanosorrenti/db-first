@@ -16,33 +16,37 @@
 
 # COLONNE:
 
-    -ID: Number
+    -ID: Number - INT
     
-    -CASA PRODUTTRICE: String
+    -CASA PRODUTTRICE: String - VARCHAR(15)
 
-    -MODELLO: String
+    -MODELLO: String - VARCHAR(70)
 
-    -IMAGE: String
+    -IMAGE: String - VARCHAR(256)
 
-    -IMMATRICOLAZIONE: Date
+    -IMMATRICOLAZIONE: Date - DATE
 
-    -CHILOMETRI: Number
+    -CHILOMETRI: Number - MEDIUMINT - DECIMAL(6, 3)
 
-    -ALIMENTAZIONE: String
+    -PREZZO: Number - MEDIUMINT - DECIMAL(6, 3)
 
-    -CAMBIO: String
+    -ALIMENTAZIONE: String - VARCHAR(10)
 
-    -POSTI: Number
+    -CAMBIO AUTOMATICO: Number - TINYINT
+    
+    -TIPOLOGIA CAMBIO AUOTMATICO: String - VARCHAR(3)
 
-    -CILINDRATA: Number
+    -POSTI: Number - TINYINT
 
-    -PORTE: Number
+    -CILINDRATA: - Number SMALLINT
 
-    -POTENZA: Number
+    -PORTE: Number - TINYINT
 
-    -CONSUMI: Number
+    -POTENZA: Number - TINYINT
 
-    -CLASSE: String
+    -CONSUMI: Number - TINYINT
 
-    -N.PROPRIETARI: Number
+    -CLASSE: String - CHAR(2)
+
+    -N.PROPRIETARI: Number TINYINT 
 
