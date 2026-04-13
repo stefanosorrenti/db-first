@@ -13,5 +13,36 @@
 
 4) Inserire eventuali attributi
 
+# TABELLA: Cars
 
+
+# COLONNE:
+
+    -ID
+    
+    -CASA PRODUTTRICE
+
+    -MODELLO
+
+    -IMMATRICOLAZIONE
+
+    -CHILOMETRI
+
+    -ALIMENTAZIONE
+
+    -CAMBIO
+
+    -POSTI
+
+    -CILINDRATA
+
+    -PORTE
+
+    -POTENZA
+
+    -CONSUMI
+
+    -CLASSE
+
+    -N.PROPRIETARISSS
 
