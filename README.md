@@ -27,9 +27,9 @@
 
     -IMMATRICOLAZIONE: Date - DATE - [NOTNULL]
 
-    -CHILOMETRI: Number - FLOAT(6, 3) - [NOTNULL]
+    -CHILOMETRI: Number - FLOAT(8, 2) - [NOTNULL]
 
-    -PREZZO: Number - DECIMAL(6, 3) - [NOTNULL]
+    -PREZZO: Number - DECIMAL(8, 2) - [NOTNULL]
 
     -ALIMENTAZIONE: String - VARCHAR(10) - [NOTNULL]
 
